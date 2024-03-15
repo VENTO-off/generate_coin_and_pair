@@ -1,0 +1,20 @@
+[package]
+name = "FTY"
+version = "1.0.0"
+authors = []
+
+[addresses]
+coin_owner = "0xcf8a79dbe461bf84391eadcb8125e2ff3a1b0327259ada782773a7d033a81103"
+bapt_framework_testnet = "0x5926ff3e8978fbd84babc7828e60cdc09ac3d5fc0c13711c3ef2c2e397adb2b0"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.LegacyCoinDeployerV2]
+local = "./LegacyCoinDeployerV2"
+
+[dev-dependencies]
