@@ -4,7 +4,7 @@ version = "1.0.0"
 authors = []
 
 [addresses]
-coin_owner = "0xcf8a79dbe461bf84391eadcb8125e2ff3a1b0327259ada782773a7d033a81103"
+coin_owner = "0x8729f9ef731c1fb258672109faa4f04b2da7879e6a2dc23f829c402eb0d4e16a"
 bapt_framework_testnet = "0x5926ff3e8978fbd84babc7828e60cdc09ac3d5fc0c13711c3ef2c2e397adb2b0"
 
 [dev-addresses]
