@@ -90,7 +90,7 @@ module bapt_framework_testnet::deployer_v2 {
 
     entry fun init(signer_ref: &signer, deploy_and_liquidate_fee: u64, deploy_and_initialize_fee_on_transfer_fee: u64) {
         let signer_addr = signer::address_of(signer_ref);
-        assert!(signer_addr == @bapt_framework, ENOT_BAPT_ACCOUNT);
+        assert!(signer_addr == @bapt_framework_testnet, ENOT_BAPT_ACCOUNT);
         // init config
         move_to<Config>(
             signer_ref,

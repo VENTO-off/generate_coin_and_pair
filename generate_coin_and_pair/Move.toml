@@ -4,7 +4,7 @@ version = "1.0.0"
 authors = []
 
 [addresses]
-coin_owner = "0x8729f9ef731c1fb258672109faa4f04b2da7879e6a2dc23f829c402eb0d4e16a"
+coin_owner = "0x1f245075fccc973325087587d8569bd14043b4cac74abc331d03e4a399569b05"
 bapt_framework_testnet = "0x5926ff3e8978fbd84babc7828e60cdc09ac3d5fc0c13711c3ef2c2e397adb2b0"
 
 [dev-addresses]
@@ -15,6 +15,6 @@ rev = "mainnet"
 subdir = "aptos-move/framework/aptos-framework"
 
 [dependencies.LegacyCoinDeployerV2]
-local = "./LegacyCoinDeployerV2"
+local = "./packages/LegacyCoinDeployerV2"
 
 [dev-dependencies]
